@@ -1,0 +1,48 @@
+# Node/Vite
+node_modules/
+dist/
+.vite/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+.env
+
+# Build outputs
+coverage/
+.eslintcache
+*.tsbuildinfo
+
+# Puppeteer/Chrome
+**/chrome-data/
+**/chromium/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local data & large artifacts (keep TFJS models only)
+data/
+model_export/
+**/saved_model/
+*.h5
+*.keras
+*.pb
+*.ckpt
+
+# Local duplicates / backups (keep out of VCS)
+app - Copy.js
+styles_backup.css
+
+# Media & uploads (optional)
+public/sounds/
+
+# OS junk
+Icon?
+

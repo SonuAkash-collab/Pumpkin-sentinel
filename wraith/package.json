@@ -1,0 +1,16 @@
+{
+  "name": "wraith-wheels",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Wraith Wheels — on-device drowsiness detection (Vite dev server)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21",
+    "puppeteer": "^24.26.1"
+  },
+  "dependencies": {}
+}
